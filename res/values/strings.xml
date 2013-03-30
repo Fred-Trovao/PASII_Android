@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ExemploRESTClientActivity!</string>
+    <string name="app_name">ExemploRESTClient</string>
+    <string name="obter_clubes">Obter Clubes</string>
+    <string name="edit_clube">Nome do Clube</string>
+    <string name="inserir_clube"> Inserir Clube</string>
+    <string name="title_activity_post">Post Activity</string>
+    <string name="action_settings">Settings</string>
+</resources>

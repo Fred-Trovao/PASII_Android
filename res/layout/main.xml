@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+    <EditText android:id="@+id/edit_clube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_clube" />
+    
+    <Button android:text="@string/inserir_clube"
+        android:id="@+id/button2"
+        android:layout_alignParentRight="true"	
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/edit_clube"
+		android:onClick="btnWSClickPost"/>
+    
+	<Button android:text="@string/obter_clubes"
+	    android:id="@+id/button1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/button2" 
+		android:onClick="btnWSClick" />
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/button1"
+		android:id="@+id/txtResposta"/>
+</RelativeLayout>
